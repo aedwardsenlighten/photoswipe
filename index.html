@@ -109,10 +109,13 @@
 				openPhotoSwipe();
 			});
 
-			// Use this property to remove scroll on close
+			// This disables the context menu
+			$('body').on('contextmenu', function(){return false;});
+
+
+			// Use these properties to remove scroll on close
 			// closeOnScroll  pinchToClose  closeOnVerticalDrag 
 
-			// 
 		</script>
 	</body>
 </html>
